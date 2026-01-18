@@ -4,18 +4,22 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 24px;
 }
 
 .card {
     width: 600px;
-    height: 320px;
+    padding: 24px;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     background-color: white;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 16px;
+
     font-family: Arial, sans-serif;
     text-align: center;
 }
@@ -25,5 +29,14 @@ body {
     height: 120px;
     border-radius: 50%;
     object-fit: cover;
-    margin-top: 20px;
+}
+
+.card-text p {
+    text-align: left;
+    margin: 0;
+    line-height: 1.25;
+}
+
+.card-text h1 {
+    margin: 10px;
 }
